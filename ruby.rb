@@ -85,7 +85,7 @@ end
     end
     
     def legs
-      p 'The dog has #{legs}.'
+      p 'The dog has #{@legs}.'
     end
   end
   
@@ -93,5 +93,5 @@ end
 
 #### 6b.  Create a new instance of an Animal with a brown color.  Return how many legs the animal has.
 
-dog = Animal.new('brown', 'dog')
+dog = Animal.new('brown')
   p dog.legs
